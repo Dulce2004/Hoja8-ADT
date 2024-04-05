@@ -1,9 +1,23 @@
+//Dulce Ambrosio - 231143
+//Hoja #8
+
 package uvg.edu.gt;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.PriorityQueue;
 import java.util.Scanner;
+
+/**
+ * Clase principal que imprime el uso de PriorityQueue y VectorHeap para manejar una cola de pacientes.
+ */
 public class Main {
+
+    /**
+     * Método principal que lee información de pacientes de un archivo y muestra su información utilizando PriorityQueue y VectorHeap.
+     *
+     * @param args Argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
         // Utilizando java.util.PriorityQueue
         PriorityQueue<Paciente> colaJava = new PriorityQueue<>();
